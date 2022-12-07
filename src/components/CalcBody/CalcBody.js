@@ -68,8 +68,8 @@ function CalcBody() {
             <input  type="text" id="calculator-body" name="calculator-body" onChange={inputHandler} />
             </div>
 
-            <p></p>
-            
+            <p>{result}</p>
+
             <button className="btn" onClick={addHandeler} >Add</button>
             <button className="btn" onClick={substractHandeler} >Subtraction</button>
             <button className="btn" onClick={multiplyHandeler} >Multiply</button>
