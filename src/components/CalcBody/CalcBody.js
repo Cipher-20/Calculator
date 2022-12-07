@@ -1,4 +1,11 @@
+import * as calcServices from '../../services/calcServices';
+
 function CalcBody() {
+
+
+
+
+
     return(
         <>
             <div>
@@ -8,16 +15,10 @@ function CalcBody() {
             <input  type="text" id="calculator-body" name="calculator-body" />
             </div>
 
-            
-
-            <button className="btn" >Add</button>
-            <button className="btn" >Subtraction</button>
-            <button className="btn" >Multiply</button>
-            <button className="btn" >Division</button>
-
-
-
-
+            <button className="btn" onClick={} >Add</button>
+            <button className="btn" onClick={} >Subtraction</button>
+            <button className="btn" onClick={} >Multiply</button>
+            <button className="btn" onClick={} >Division</button>
 
             </div>
         </>
