@@ -1,48 +1,35 @@
 
-export function add(number){
-    let result = 0;
-
-    if (result === 0) {
-
-        result = number;
-    }else{
-        result += number;
-
+  export const add = (result, number) =>{
+    
+        // let expression = 0;
+    
+        result += Number(number);
+    
+        return result;
+    
     }
-}
-
-export function subtraction(number){
-    let result = 0;
-
-    if (result === 0) {
-
-        result = number;
-    }else{
-
-        result -= number;
+        
+    export const subtraction = (result, number) => {
+        // let expression = 0;
+        
+        result -= Number(number);
+    
+        return result;
     }
-}
-
-export function multiply(number){
-    let result = 0;
-
-    if (result === 0) {
-
-        result = number;
-    }else{
-
-        result *= number;
+    
+    export const multiply = (result, number) => {
+        // let expression = 0;
+    
+        result *= Number(number);
+    
+        return result;
     }
-}
-
-export function division(number){
-    let result = 0;
-
-    if (result === 0) {
-
-        result = number;
-    }else{
-
-        result /= number;
+    
+    export const division = (result, number) => {
+        // let expression = 0;
+    
+        result /= Number(number);
+    
+        return result;
     }
-}
+
