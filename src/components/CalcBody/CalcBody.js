@@ -56,6 +56,23 @@ function CalcBody() {
         setResult(expression);
     }
 
+    const percentHandeler = (e) =>{
+        e.preventDefault();
+
+        let expression;
+
+        expression = calcServices.percent(result, number);
+
+        setResult(expression);
+    }
+
+
+    const clearHandeler = (e) =>{
+        e.preventDefault();
+
+        setResult(0);
+    }
+
     console.log(result);
 
 
@@ -74,6 +91,9 @@ function CalcBody() {
             <button className="btn" onClick={substractHandeler} >Subtraction</button>
             <button className="btn" onClick={multiplyHandeler} >Multiply</button>
             <button className="btn" onClick={divisionHandeler} >Division</button>
+            <button className="btn" onClick={percentHandeler} >Percent</button>
+            <button className="btn" onClick={clearHandeler} >Clear</button>
+
 
             </div>
         </>

@@ -33,3 +33,15 @@
         return result;
     }
 
+    export const percent = (result, number) => {
+        // let expression = 0;
+    
+        result = (result / 100) * Number(number)    ;
+    
+        return result;
+
+
+        
+    }
+
+
